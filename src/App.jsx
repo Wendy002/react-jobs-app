@@ -5,9 +5,10 @@ const App = () => {
   return (
     <>
       <Navbar/>
-      <Hero/>
+      <Hero title ="Become a react developer" subtitle="Find the React job that fits your skills and needs"/>
 
       {/* <!-- Developers and Employers --> */}
+      
       <section className="py-4">
         <div className="container-xl lg:container m-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 rounded-lg">
